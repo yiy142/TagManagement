@@ -1,0 +1,41 @@
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Tag Management</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="{% static 'tags/css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'tags/css/mdb.min.css'%}">
+    <style>
+        button{
+
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="treeview-animated w-20 border mx-4 my-4">
+        <h6 class="pt-3 pl-3" style = "display: inline-block">Tags</h6>
+        <button id = "addRoot" class = "btn btn-primary btn-sm"> Add Root </button>
+        <button id = "complete" class = "btn btn-primary btn-sm"> Complete </button>
+        <hr  id = "tree">
+
+    </div>
+{#    <div id = "wrapper"></div>#}
+</div>
+
+</body>
+<script type="text/javascript" src="{% static 'tags/js/jquery.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'tags/js/popper.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'tags/js/bootstrap.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'tags/js/mdb.min.js' %}" ></script>
+<script type="text/javascript" src="{% static 'tags/js/tag2.js' %}"></script>
+
+<script>
+
+
+</script>
+</html>

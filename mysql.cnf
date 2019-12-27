@@ -1,0 +1,5 @@
+[client]
+database = tags
+user = root
+password = 1997728yy
+default-character-set = utf8
